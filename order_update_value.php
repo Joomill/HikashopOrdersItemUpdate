@@ -13,12 +13,10 @@ use Joomla\CMS\Factory;
 
 class plgHikashopOrder_update_value extends JPlugin
 {
-	var $message = '';
 
 	function __construct(&$subject, $config){
 		parent::__construct($subject, $config);
 		$pluginsClass = hikashop_get('class.plugins');
-		
 	}
 		
 	function onAfterOrderCreate(&$order) {	
