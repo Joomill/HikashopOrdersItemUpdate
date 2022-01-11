@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" version="3.9" method="upgrade" group="hikashop">
+	<name>Hikashop Orders Item Update</name>
+	<creationDate>January 2022</creationDate>
+	<version>1.0.0</version>
+	<author>Joomill Extensions</author>
+	<authorEmail>info@joomill-extensions.com</authorEmail>
+	<authorUrl>https://www.joomill-extensions.com</authorUrl>
+	<copyright>(C) 2022 Joomill. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<description>This plugin saves the current product field into the order item</description>
+	<files>
+		<filename plugin="order_update_value">order_update_value.php</filename>
+	</files>
+	<config>
+	</config>
+</extension>
